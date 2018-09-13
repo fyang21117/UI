@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentFrameLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/cp1"
+        android:text="@string/cp1"
+        android:layout_gravity="start|top"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%" />
+
+    <Button
+        android:id="@+id/cp2"
+        android:text="@string/cp2"
+        android:layout_gravity="end|top"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%" />
+
+    <Button
+        android:id="@+id/cp3"
+        android:text="@string/cp3"
+        android:layout_gravity="start|bottom"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%" />
+
+    <Button
+        android:id="@+id/cp4"
+        android:text="@string/cp4"
+        android:layout_gravity="end|bottom"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="50%" />
+
+</android.support.percent.PercentFrameLayout>
