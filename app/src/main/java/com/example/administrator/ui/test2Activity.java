@@ -6,21 +6,21 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class testActivity extends AppCompatActivity {
+public class test2Activity extends AppCompatActivity {
     public static void actionStart(Context context) {
-        Intent intent = new Intent(context,testActivity.class);
+        Intent intent = new Intent(context,test2Activity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
         context.startActivity(intent);
     }
 
-    public TextView testText;
-    public String cp1="第一个产品";
+    public TextView test2Text;
+    public String cp2="第二个产品";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_test);
+        setContentView(R.layout.activity_test2);
 
-        testText= findViewById(R.id.testview);
-        testText.setText(cp1);
+        test2Text= findViewById(R.id.test2view);
+        test2Text.setText(cp2);
     }
 }

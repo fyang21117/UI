@@ -9,6 +9,12 @@
         android:roundIcon="@drawable/fingerprint"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".testActivity" />
+        <activity android:name=".test2Activity" />
+        <activity android:name=".test3Activity" />
+        <activity android:name=".test4Activity"/>
+
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,8 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".testActivity"></activity>
+
+
     </application>
 
 </manifest>
